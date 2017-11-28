@@ -11,10 +11,10 @@ security:
     client:
       clientId: SampleClientId
       clientSecret: secret
-      accessTokenUri: http://quiet-atoll-49433.herokuapp.com/auth/oauth/token
-      userAuthorizationUri: http://quiet-atoll-49433.herokuapp.com/auth/oauth/authorize
+      accessTokenUri: http://localhost:8081/auth/oauth/token
+      userAuthorizationUri: http://localhost:8081/auth/oauth/authorize
     resource:
-      userInfoUri: http://quiet-atoll-49433.herokuapp.com/auth/user/me
+      userInfoUri: http://localhost:8081/auth/user/me
 spring:
   thymeleaf:
     cache: false        
